@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK, PAPER & SCISSORS</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="/button.js"></script>
+</head>
+<body>
+    <section class="main__container">
+        <div class="counter__attempts">
+            <h2 class="number__of--attempts" id="counter">0</h2>
+        </div>
+    </section>
+    <div class="container">
+        <div class="scores">
+            <p>Computer : 
+                <span id="computer_score">0</span>
+            </p>
+            <p>
+                You :
+                <span id="user_score">0</span>
+            </p>
+        </div>
+    </div>
+    <section class="container__icons">
+        <div class="icon__scissors">
+            <img src="/resources/icons/scissors.png" alt="Scissors hand">
+            <div  class="scissors__box">
+                <button class="scissors__button"><span><p class="scissors_button--txt" onclick="clickF('scissor')">S C I S S O R</p></span></button>
+            </div>
+        </div>
+        <div class="icon__rock">
+            <img src="/resources/icons/rock.png" alt="hand rock">
+            <div class="rock__box">
+                <button class="rock__button"><span><p class="rock__button--txt" onclick="clickF('rock')">R O C K</p></span></button>
+            </div>
+        </div>
+        <div class="icon__paper">
+            <img src="/resources/icons/paper.png" alt="Hand paper">
+            <div class="paper__box">
+                <button class="paper__button"><span><p class="paper__button--txt" onclick="clickF('paper')">P A P E R</p></span></button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="result">
+        <div class="result__match">
+            <p id="user__choice"></p>
+            <p id="comp__choice"></p>
+            <p class="result__match--txt" id="result"><br></p>
+        </div>
+    </footer>
+        <!-- </div>
+        <div> -->
+            <!-- <button class="reset__button"><i>RESET</i></div> -->
+
+</body>
+<footer class="contact">
+    <div class="contact__message">
+        <p class="contact__text">MADE WITH &nbsp &nbsp  &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  BY ADAL</p>
+        <a href="https://github.com/AdalObregon" target="_blank"><img  class="contact__gitgub" src="/resources/social/github.png" alt="github logo"></a>
+        <a href="https://www.linkedin.com/in/adal-obregon/" target="_blank" ><img class="contact__linkedin" src="/resources/social/linkedin.png" alt="linkedin logo"></a>
+        <div class="heart__beat">
+
+        </div>
+    </div>
+</footer>
+</html>
