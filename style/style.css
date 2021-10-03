@@ -352,7 +352,7 @@ switch{
         /* bring your own prefixes */
         transform: translate(-50%, -50%);
         width: 500px;
-        height: 650px;
+        height: 400px;
         background: white;
         border-radius: 110px;
     }
@@ -410,7 +410,7 @@ switch{
     .scissors_button--txt{
         color: black;
         font-family: Roboto;
-        font-size: 15px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 700;
         line-height: 23px;
@@ -456,7 +456,7 @@ switch{
     .rock__button--txt{
         color: black;
         font-family: Roboto;
-        font-size: 15px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 700;
         line-height: 23px;
@@ -502,7 +502,7 @@ switch{
     .paper__button--txt{
         color: black;
         font-family: Roboto;
-        font-size: 15px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 700;
         line-height: 23px;
@@ -540,7 +540,7 @@ switch{
         height: 90px;
         position: fixed;
         left: 30%; 
-        top: 60%;
+        top: 65%;
         background: #F99696;
         border-radius: 25px;
     }
