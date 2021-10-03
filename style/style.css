@@ -352,7 +352,7 @@ switch{
         /* bring your own prefixes */
         transform: translate(-50%, -50%);
         width: 500px;
-        height: 400px;
+        height: 450px;
         background: white;
         border-radius: 110px;
     }
@@ -540,7 +540,7 @@ switch{
         height: 90px;
         position: fixed;
         left: 30%; 
-        top: 65%;
+        top: 63%;
         background: #F99696;
         border-radius: 25px;
     }
